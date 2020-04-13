@@ -52,7 +52,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: eureka7001.com:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: springcloudDept8001                 #服务名称的修改
     prefer-ip-address: true                          #显示ip
@@ -114,7 +114,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: eureka7001.com:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: springcloudDept8001                 #服务名称的修改
     prefer-ip-address: true                          #显示ip
